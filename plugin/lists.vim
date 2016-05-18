@@ -133,7 +133,7 @@
 " Plugin 'mhinz/vim-startify'                                                               " vim启动的时候显示一个启动画面
 "
 " 主题列表
-" Plugin 'altercation/solarized', {'rtp' : 'vim-colors-solarized'}
+  Plugin 'altercation/solarized', {'rtp' : 'vim-colors-solarized'}
 " Plugin 'altercation/vim-colors-solarized'                                                 " 配色主题solarized
 " Plugin 'vim-scripts/desertEx'                                                             " 配色主题desertEx
 " Plugin 'junegunn/seoul256.vim'                                                            " 配色主题seoul256

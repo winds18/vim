@@ -79,7 +79,7 @@ autocmd BufReadPost *
   set tm=500
 " }}}
 
-" source $HOME/vim/theme/config.vim                 " load the theme
+  source $HOME/vim/theme/config.vim                 " load the theme
 
 " 当前所在光标高亮显示 {{{
 " set cursorline
