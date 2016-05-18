@@ -21,3 +21,4 @@
 " source $HOME/vim/plugin/numbers.vim
 " source $HOME/vim/plugin/winmanager.vim
 " source $HOME/vim/plugin/ionic.vim
+  source $HOME/vim/plugin/markdown.vim
