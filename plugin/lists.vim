@@ -19,7 +19,7 @@
 " Plugin 'scrooloose/syntastic'                                                             " 及时语法检测插件
 " Plugin 'nathanaelkane/vim-indent-guides'                                                  " 语法缩进高亮图形表示插件,用来帮助缩进对齐的插件，需要的时候会很好用
 " Plugin 'kshenoy/vim-signature'                                                            " marks显示插件
-" Plugin 'godlygeek/tabular'                                                                " 万能格式过滤与对齐插件
+  Plugin 'godlygeek/tabular'                                                                " 万能格式过滤与对齐插件
 " Plugin 'vim-scripts/snipMate'                                                             " 代码块补全插件
 " Plugin 'drmingdrmer/xptemplate'                                                           " 代码块补全插件
 " Plugin 'SirVer/ultisnips'                                                                 " 提供超强的快速生成代码段的功能(超越snipmate)
@@ -40,6 +40,9 @@
 " c/c++
 " Plugin 'vim-scripts/a.vim'                                                                " .cpp和.h文件之间快速切换
 " Plugin 'vim-scripts/OmniCppComplete'                                                      " 实现写C/C++语言时自动补全 
+"
+" markdown
+  Plugin 'plasticboy/vim-markdown'
 "
 " python
 " Plugin 'kevinw/pyflakes-vim'                                                              " 提供实时检查python代码语法的功能（强烈推荐！）
