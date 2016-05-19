@@ -89,7 +89,7 @@
 " Plugin 'bling/vim-bufferline'                                                             " 命令栏显示缓存文件列表插件
 "
 " 个性化状态栏插件
-" Plugin 'powerline/powerline', {'rtp' : 'powerline/bindings/vim/'}                         " 状态栏插件powerline
+  Plugin 'powerline/powerline', {'rtp' : 'powerline/bindings/vim/'}                         " 状态栏插件powerline
 " Plugin 'bling/vim-airline'                                                                " 状态栏插件airline
 "
 " 窗口相关插件
