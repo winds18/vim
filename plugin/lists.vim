@@ -61,7 +61,7 @@
 "
 " js
 " Plugin 'beautify-web/js-beautify'                                                         " js代码整理插件
-" Plugin 'maksimr/vim-jsbeautify'                                                           " js代码格式化
+  Plugin 'maksimr/vim-jsbeautify'                                                           " js代码格式化
 " Plugin 'einars/js-beautify'                                                               " js代码美化
 " Plugin 'vim-scripts/jQuery'                                                               " jquery语法高亮
 " Plugin 'pangloss/vim-javascript'                                                          " js语法高亮
@@ -69,10 +69,10 @@
 " Plugin 'burnettk/vim-angular'                                                             " angular语法
 "
 " html/xml
-" Plugin 'othree/html5.vim'                                                                 " html5语法高亮
+  Plugin 'othree/html5.vim'                                                                 " html5语法高亮
 " Plugin 'vim-scripts/matchit.zip'                                                          " 使%不仅能够匹配简单的<>()，还能匹配<html></html>之类标签的功能
 " Plugin 'othree/xml.vim'                                                                   " 提供快速编写xml/html的能力，如标签自动闭合等
-" Plugin 'mattn/emmet-vim'                                                                  " html快速开发插件
+  Plugin 'mattn/emmet-vim'                                                                  " html快速开发插件
 " Plugin 'groenewege/vim-less'                                                              " less语法高亮
 "
 " lisp
