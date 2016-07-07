@@ -64,10 +64,14 @@
   Plugin 'maksimr/vim-jsbeautify'                                                           " js代码格式化
 " Plugin 'einars/js-beautify'                                                               " js代码美化
 " Plugin 'vim-scripts/jQuery'                                                               " jquery语法高亮
-  Plugin 'pangloss/vim-javascript'                                                          " js语法高亮
-  Plugin 'mxw/vim-jsx'                                                                      " jsx语法高亮
+" Plugin 'pangloss/vim-javascript'                                                          " js语法高亮
 " Plugin 'jelera/vim-javascript-syntax'                                                     " js语法高亮
 " Plugin 'burnettk/vim-angular'                                                             " angular语法
+"                                                                                           " for jsx 一下4个插件，后两个可选
+  Plugin 'othree/yajs.vim'
+  Plugin 'maxmellon/vim-jsx-pretty'
+  Plugin 'othree/javascript-libraries-syntax.vim'
+  Plugin 'othree/es.next.syntax.vim'
 "
 " html/xml
   Plugin 'othree/html5.vim'                                                                 " html5语法高亮
