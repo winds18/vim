@@ -63,7 +63,7 @@ autocmd BufReadPost *
   set nrformats=alpha,octal,hex                     " <C-A>与<C-X>增减计数包含的进制
   set tags=./tags                                   " 设置默认标签路径
 " set path=.,..,,                                   " 默认搜索路径当前路径，上级路径，工作目录所在路径
-" set autochdir                                     " 自动切换当前目录为当前文件所在的目录
+  set autochdir                                     " 自动切换当前目录为当前文件所在的目录
 " }}}
 
 " 关闭备份 {{{

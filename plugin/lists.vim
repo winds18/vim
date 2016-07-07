@@ -18,7 +18,7 @@
 " Plugin 'terryma/vim-multiple-cursors'                                                     " 多行选中插件(类似sublimetext)
 " Plugin 'scrooloose/syntastic'                                                             " 及时语法检测插件
 " Plugin 'nathanaelkane/vim-indent-guides'                                                  " 语法缩进高亮图形表示插件,用来帮助缩进对齐的插件，需要的时候会很好用
-" Plugin 'kshenoy/vim-signature'                                                            " marks显示插件
+  Plugin 'kshenoy/vim-signature'                                                            " marks显示插件
   Plugin 'godlygeek/tabular'                                                                " 万能格式过滤与对齐插件
 " Plugin 'vim-scripts/snipMate'                                                             " 代码块补全插件
 " Plugin 'drmingdrmer/xptemplate'                                                           " 代码块补全插件
@@ -64,7 +64,8 @@
   Plugin 'maksimr/vim-jsbeautify'                                                           " js代码格式化
 " Plugin 'einars/js-beautify'                                                               " js代码美化
 " Plugin 'vim-scripts/jQuery'                                                               " jquery语法高亮
-" Plugin 'pangloss/vim-javascript'                                                          " js语法高亮
+  Plugin 'pangloss/vim-javascript'                                                          " js语法高亮
+  Plugin 'mxw/vim-jsx'                                                                      " jsx语法高亮
 " Plugin 'jelera/vim-javascript-syntax'                                                     " js语法高亮
 " Plugin 'burnettk/vim-angular'                                                             " angular语法
 "
