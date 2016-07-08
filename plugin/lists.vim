@@ -68,11 +68,12 @@
 " Plugin 'jelera/vim-javascript-syntax'                                                     " js语法高亮
 " Plugin 'burnettk/vim-angular'                                                             " angular语法
 "                                                                                           " for jsx 一下4个插件，后两个可选
-  Plugin 'othree/yajs.vim'
-  Plugin 'maxmellon/vim-jsx-pretty'
-  Plugin 'othree/javascript-libraries-syntax.vim'
-  Plugin 'othree/es.next.syntax.vim'
+" Plugin 'othree/yajs.vim'
+" Plugin 'maxmellon/vim-jsx-pretty'
+" Plugin 'othree/javascript-libraries-syntax.vim'
+" Plugin 'othree/es.next.syntax.vim'
 "
+  Plugin 'isRuslan/vim-es6'                                                                 " for js es6 标准
 " html/xml
   Plugin 'othree/html5.vim'                                                                 " html5语法高亮
 " Plugin 'vim-scripts/matchit.zip'                                                          " 使%不仅能够匹配简单的<>()，还能匹配<html></html>之类标签的功能
