@@ -22,8 +22,8 @@
   Plugin 'godlygeek/tabular'                                                                " 万能格式过滤与对齐插件
 " Plugin 'vim-scripts/snipMate'                                                             " 代码块补全插件
 " Plugin 'drmingdrmer/xptemplate'                                                           " 代码块补全插件
-" Plugin 'SirVer/ultisnips'                                                                 " 提供超强的快速生成代码段的功能(超越snipmate)
-" Plugin 'honza/vim-snippets'                                                               " 单独的snippets引擎，与ultisnips配合使用
+  Plugin 'SirVer/ultisnips'                                                                 " 提供超强的快速生成代码段的功能(超越snipmate)
+  Plugin 'honza/vim-snippets'                                                               " 单独的snippets引擎，与ultisnips配合使用
 " Plugin 'vim-scripts/AuthorInfo'                                                           " 自动生成/更新文件的作者信息
 " Plugin 'tomtom/checksyntax_vim'                                                           " 一个通用的语法检查插件，支持c,js,等等
 " Plugin 'vim-scripts/The-NERD-Commenter'                                                   " 注释插件
