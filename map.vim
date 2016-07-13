@@ -1,5 +1,7 @@
 " gloable map setting {{{
   map <C-J> <CR>
+  noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
+  noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
 " nnoremap <C-B> <Left>
 " nnoremap <C-F> <Right>
 " nnoremap <C-A> <Home>
