@@ -51,6 +51,7 @@ autocmd BufReadPost *
   set list                                          " 显示特殊字符
 " set listchars=tab:▸\ ,eol:¬                       " 自定义显示符号
   set listchars=eol:┘,tab:∙∙,trail:-,extends:⇒,precedes:⇐,conceal:ψ
+" set listchars=tab:>-,trail:#,eol:$,nbsp:~,extends:>,precedes:<
   set splitright                                    " 垂直分割窗口在右
   set splitbelow                                    " 水平分割窗口在下
   set confirm                                       " 未保存文件退出vim时提醒
