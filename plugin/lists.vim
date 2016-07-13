@@ -27,7 +27,7 @@
 " Plugin 'vim-scripts/AuthorInfo'                                                           " 自动生成/更新文件的作者信息
 " Plugin 'tomtom/checksyntax_vim'                                                           " 一个通用的语法检查插件，支持c,js,等等
 " Plugin 'vim-scripts/The-NERD-Commenter'                                                   " 注释插件
-" Plugin 'scrooloose/nerdcommenter'                                                         " 注释插件
+  Plugin 'scrooloose/nerdcommenter'                                                         " 注释插件
 " Plugin 'tpope/vim-commentary'                                                             " 注释插件
 " Plugin 'vim-scripts/DoxygenToolkit.vim'                                                   " 由注释生成文档，并且能够快速生成函数标准注释
 " Plugin 'vim-scripts/AuthorInfo'                                                           " 自动识别文件类型添加相对应的作者信息
@@ -129,14 +129,14 @@
 " Plugin 'vim-scripts/VisIncr'                                                              " 提供生成数列的功能
 " Plugin 'vimwiki/vimwiki'                                                                  " 用vim来打造个人wiki
 " Plugin 'vim-scripts/auto_mkdir'                                                           " 用 :w写入文件的时候会自动创建目录
-" Plugin 'tpope/vim-surround'                                                               " 快速给单词/句子两边增加符号（包括html标签），缺点是不用用”.”来重复命令，repeat.vim可以解决这个问题
+  Plugin 'tpope/vim-surround'                                                               " 快速给单词/句子两边增加符号（包括html标签），缺点是不用用”.”来重复命令，repeat.vim可以解决这个问题
 " Plugin 'tpope/vim-repeat'                                                                 " enable repeating supported plugin maps with '.'
 " Plugin 'vim-scripts/VimRepress'                                                           " 用vim来查看、发布、修改、删除博客
 " Plugin 'vim-scripts/VOoM'                                                                 " 提供outline功能，功能非常强大
 " Plugin 'vim-scripts/Align'                                                                " 提供对齐文字的功能，不同于indent插件，一旦用到就会非常方便
 " Plugin 'vim-scripts/weibo.vim'                                                            " 在Vim中发腾讯微博
 " Plugin 'vim-scripts/colorsel.vim'                                                         " 可视化配色插件
-" Plugin 'mhinz/vim-startify'                                                               " vim启动的时候显示一个启动画面
+  Plugin 'mhinz/vim-startify'                                                               " vim启动的时候显示一个启动画面
 "
 " 主题列表
   Plugin 'altercation/solarized', {'rtp' : 'vim-colors-solarized'}
