@@ -21,17 +21,12 @@ autocmd BufReadPost *
 
 " ususl config {{{
 " colorscheme default                               " set colorscheme
-  set tabstop=4                                     " one tab = four spaces
-  set softtabstop=4                                 " 退格键退回缩进的长度
-  set shiftwidth=4                                  " 每一级缩进的长度
-  set expandtab                                     " change tab to space
-" set noexpandtab                                   " not change tab to space
+  set autowrite                                     " Automatically save before :next, :make etc.
   set laststatus=2                                  " always show the statusbar
   set showcmd                                       " show command
   set t_Co=256                                      " 指定配色为256色
 " set number                                        " 显示行号
   set relativenumber                                " 显示相对行号
-  set nowrap                                        " 不自动换行
   set hlsearch                                      " 高亮显示搜索结果
   set incsearch                                     " 搜索时，时时匹配
   set ignorecase                                    " 搜索时大小写不敏感
@@ -52,7 +47,6 @@ autocmd BufReadPost *
   set foldenable                                    " 开启代码折叠
   set foldmethod=marker                             " 根据标记自动折叠
   set foldcolumn=0                                  " 折叠区域的宽度
-  set linebreak                                     " 不在单词中间断行
   set textwidth=200                                 " 200个字符处才断行
   set list                                          " 显示特殊字符
 " set listchars=tab:▸\ ,eol:¬                       " 自定义显示符号
@@ -63,10 +57,50 @@ autocmd BufReadPost *
   set shortmess=atI                                 " close welcome info when vim startup
   set nrformats=alpha,octal,hex                     " <C-A>与<C-X>增减计数包含的进制
   set tags=./tags                                   " 设置默认标签路径
-" set path=.,..,,                                   " 默认搜索路径当前路径，上级路径，工作目录所在路径
+  set path=$PWD/**                                  " 默认搜索路径当前路径，上级路径，工作目录所在路径
   set autochdir                                     " 自动切换当前目录为当前文件所在的目录
 " }}}
 
+" Splitting{{{
+  set splitright                                    " Open new vertical panes in the right rather than left.
+  set splitbelow                                    " Open new horizontal panes in the bottom rather than top.
+" }}}
+"
+" Indention and formatting.{{{
+  set autoindent                                    " Indent a new line according to the previous one.
+  set copyindent                                    " Copy (exact) indention from the previous line.
+  set nopreserveindent                              " Do not try to preserve indention when indenting.
+  set nosmartindent                                 " Turn off smartindent.
+  set nocindent                                     " Turn off C-style indent.
+  set fo+=q                                         " Allow formatting of comments with 'gq'.
+  set fo-=r fo-=o                                   " Turn off automatic insertion of comment characters.
+  set fo+=j                                         " Remove a comment leader when joining comment lines.
+  filetype indent off                               " Turn off indention by filetype.
+
+  " Override the previous settings for all file types (some filetype plugins set these options to different values, which is really annoying).
+  autocmd FileType * set autoindent nosmartindent nocindent fo+=q fo-=r fo-=o fo+=j
+" }}}
+"
+" Whitespace{{{
+  set tabstop=4                                     " one tab = four spaces
+  set shiftwidth=4                                  " 每一级缩进的长度
+  set shiftround                                    " Round indent to multiple of shiftwidth.
+  set softtabstop=4                                 " 退格键退回缩进的长度
+  set expandtab                                     " change tab to space
+" set noexpandtab                                   " not change tab to space
+" }}}
+"
+" Wrapping.{{{
+  set nowrap                                        " 不自动换行
+" set wrap                                          " Enable text wrapping.
+  set linebreak                                     " 不在单词中间断行
+  set display+=lastline                             " Show as much as possible from the last shown line.
+  set textwidth=0                                   " Don't automatically wrap lines.
+
+" Disable automatic wrapping for all files (some filetype plugins set this to a different value, which is really annoying).
+  autocmd FileType * set textwidth=0
+" }}}
+"
 " 关闭备份 {{{
   set nobackup
   set nowb
