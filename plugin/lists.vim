@@ -67,6 +67,8 @@
 " Plugin 'pangloss/vim-javascript'                                                          " js语法高亮
 " Plugin 'jelera/vim-javascript-syntax'                                                     " js语法高亮
 " Plugin 'burnettk/vim-angular'                                                             " angular语法
+  Plugin 'posva/vim-vue'                                                                    " Vim syntax highlighting for Vue components.
+
 "                                                                                           " for jsx 一下4个插件，后两个可选
 " Plugin 'othree/yajs.vim'
 " Plugin 'maxmellon/vim-jsx-pretty'

@@ -76,17 +76,17 @@ autocmd BufReadPost *
   set fo+=q                                         " Allow formatting of comments with 'gq'.
   set fo-=r fo-=o                                   " Turn off automatic insertion of comment characters.
   set fo+=j                                         " Remove a comment leader when joining comment lines.
-  filetype indent off                               " Turn off indention by filetype.
+" filetype indent off                               " Turn off indention by filetype.
 
   " Override the previous settings for all file types (some filetype plugins set these options to different values, which is really annoying).
   autocmd FileType * set autoindent nosmartindent nocindent fo+=q fo-=r fo-=o fo+=j
 " }}}
 "
 " Whitespace{{{
-  set tabstop=4                                     " one tab = four spaces
-  set shiftwidth=4                                  " 每一级缩进的长度
+  set tabstop=2                                     " one tab = four spaces
+  set shiftwidth=2                                  " 每一级缩进的长度
   set shiftround                                    " Round indent to multiple of shiftwidth.
-  set softtabstop=4                                 " 退格键退回缩进的长度
+  set softtabstop=2                                 " 退格键退回缩进的长度
   set expandtab                                     " change tab to space
 " set noexpandtab                                   " not change tab to space
 " }}}
