@@ -69,6 +69,7 @@
 " Plugin 'burnettk/vim-angular'                                                             " angular语法
   Plugin 'posva/vim-vue'                                                                    " Vim syntax highlighting for Vue components.
 
+  Plugin 'digitaltoad/vim-pug'                                                              " jade syntax highlighting
 "                                                                                           " for jsx 一下4个插件，后两个可选
 " Plugin 'othree/yajs.vim'
 " Plugin 'maxmellon/vim-jsx-pretty'
