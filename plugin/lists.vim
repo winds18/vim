@@ -104,7 +104,7 @@
 "
 " 窗口相关插件
 " Plugin 'vim-scripts/winmanager'                                                           " 窗口管理插件
-" Plugin 'scrooloose/nerdtree'                                                              " 树形文件浏览插件
+  Plugin 'scrooloose/nerdtree'                                                              " 树形文件浏览插件
 " Plugin 'mbbill/undotree'                                                                  " 图形显示撤销历史纪录
 " Plugin 'sjl/gundo.vim'                                                                    " 图形显示撤销历史纪录
 " Plugin 'vim-scripts/taglist.vim'                                                          " 显示源代码文件函数列表插件

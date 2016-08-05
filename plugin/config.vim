@@ -17,7 +17,7 @@
 " source $HOME/vim/plugin/bufferline.vim
 " source $HOME/vim/plugin/taglist.vim
 " source $HOME/vim/plugin/autocomplpop.vim
-" source $HOME/vim/plugin/nerdtree.vim
+  source $HOME/vim/plugin/nerdtree.vim
 " source $HOME/vim/plugin/numbers.vim
 " source $HOME/vim/plugin/winmanager.vim
 " source $HOME/vim/plugin/ionic.vim
