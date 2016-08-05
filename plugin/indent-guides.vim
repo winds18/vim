@@ -24,15 +24,15 @@
 " let g:indent_guides_soft_pattern = ' '
 "
 " Use this option to control whether the plugin is enabled on Vim startup
-  let g:indent_guides_enable_on_vim_startup = 1
+  let g:indent_guides_enable_on_vim_startup = 0
 "
 " Use this option to specify a list of filetypes to disable the plugin for
 " let g:indent_guides_exclude_filetypes = ['help', 'nerdtree']
 "
 " Use this option to control whether the default mapping (<Leader>ig) gets set
-" let g:indent_guides_default_mapping = 0
-" :nmap <silent> <Leader>ig <Plug>IndentGuidesToggle
-" :nmap <silent> <Leader>ie <Plug>IndentGuidesEnable
-" :nmap <silent> <Leader>id <Plug>IndentGuidesDisable
+  let g:indent_guides_default_mapping = 0
+  :nmap <silent> <Leader>gt <Plug>IndentGuidesToggle
+  :nmap <silent> <Leader>ge <Plug>IndentGuidesEnable
+  :nmap <silent> <Leader>gd <Plug>IndentGuidesDisable
 "
 " 

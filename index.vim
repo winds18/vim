@@ -5,7 +5,7 @@
   let g:islinux = 0               " weather linux or not
   let g:ismac = 0                 " weather macos or not
   let g:isgui = 0                 " weather gui or term
-" let mapleader = ";"
+  let mapleader = ";"
   source $HOME/vim/base.vim
 
 " get the system type and ensure use gui or not

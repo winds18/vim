@@ -17,7 +17,7 @@
 " Plugin 'kana/vim-textobj-entire'                                                          " 新增两种整个文件的文本对象
 " Plugin 'terryma/vim-multiple-cursors'                                                     " 多行选中插件(类似sublimetext)
 " Plugin 'scrooloose/syntastic'                                                             " 及时语法检测插件
-" Plugin 'nathanaelkane/vim-indent-guides'                                                  " 语法缩进高亮图形表示插件,用来帮助缩进对齐的插件，需要的时候会很好用
+  Plugin 'nathanaelkane/vim-indent-guides'                                                  " 语法缩进高亮图形表示插件,用来帮助缩进对齐的插件，需要的时候会很好用
   Plugin 'kshenoy/vim-signature'                                                            " marks显示插件
   Plugin 'godlygeek/tabular'                                                                " 万能格式过滤与对齐插件
 " Plugin 'vim-scripts/snipMate'                                                             " 代码块补全插件

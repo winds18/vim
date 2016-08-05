@@ -11,7 +11,7 @@
 " source $HOME/vim/plugin/php-doc.vim
 " source $HOME/vim/plugin/emmet.vim
 " source $HOME/vim/plugin/html5.vim
-" source $HOME/vim/plugin/indent-guides.vim
+  source $HOME/vim/plugin/indent-guides.vim
 " source $HOME/vim/plugin/signature.vim
 " source $HOME/vim/plugin/airline.vim
 " source $HOME/vim/plugin/bufferline.vim
