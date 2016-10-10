@@ -25,7 +25,7 @@ autocmd BufReadPost *
   set laststatus=2                                  " always show the statusbar
   set showcmd                                       " show command
   set t_Co=256                                      " 指定配色为256色
-" set number                                        " 显示行号
+  set number                                        " 显示行号
   set relativenumber                                " 显示相对行号
   set hlsearch                                      " 高亮显示搜索结果
   set incsearch                                     " 搜索时，时时匹配
