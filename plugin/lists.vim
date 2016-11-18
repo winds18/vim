@@ -12,6 +12,7 @@
 " Plugin 'leshill/vim-json'                                                                 " json语法高亮
 " Plugin 'skammer/vim-css-color'                                                            " css语法高亮
 " Plugin 'lervag/vimtex'                                                                    " provides support for writing LaTeX documents
+  Plugin 'lambdatoast/elm.vim'                                                              " vim plugin for the Elm programming language
 "
 " 快速开发插件
   Plugin 'kien/ctrlp.vim'                                                                   " 快速查找插件
