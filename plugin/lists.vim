@@ -5,6 +5,7 @@
 " Plugin 'zaiste/tmux.vim'                                                                  " tmux语法高亮
 " Plugin 'etaoins/vim-volt-syntax'                                                          " volt语法高亮
 " Plugin 'evanmiller/nginx-vim-syntax'                                                      " nginx语法高亮
+" Plugin 'Plugin 'ekalinin/Dockerfile.vim'                                                  " Dockerfile语法高亮
 " Plugin 'tpope/vim-markdown'                                                               " markdown语法插件
 " Plugin 'plasticboy/vim-markdown'                                                          " markdown语法高亮
 " Plugin 'hallison/vim-markdown'                                                            " markdown语法高亮
