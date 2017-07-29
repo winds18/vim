@@ -62,6 +62,11 @@
 " Plugin 'tyru/open-browser.vim'                                                            " wordpress官方api查询插件
 " Plugin 'vim-scripts/PDV--phpDocumentor-for-Vim'                                           " php doc
 " Plugin 'vim-scripts/CodeCommenter'                                                        " php doc
+" for laravel plugins
+  Plugin 'tpope/vim-dispatch'
+  Plugin 'tpope/vim-projectionist'
+  Plugin 'noahfrederick/vim-composer'
+  Plugin 'noahfrederick/vim-laravel'
 "
 " js
 " Plugin 'beautify-web/js-beautify'                                                         " js代码整理插件
