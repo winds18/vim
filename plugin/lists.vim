@@ -2,10 +2,10 @@
   Plugin 'gmarik/Vundle.vim'                                                                " 插件管理插件Vundle
 
 " 语法高亮插件列表
-" Plugin 'zaiste/tmux.vim'                                                                  " tmux语法高亮
+  Plugin 'zaiste/tmux.vim'                                                                  " tmux语法高亮
 " Plugin 'etaoins/vim-volt-syntax'                                                          " volt语法高亮
-" Plugin 'evanmiller/nginx-vim-syntax'                                                      " nginx语法高亮
-" Plugin 'ekalinin/Dockerfile.vim'                                                          " Dockerfile语法高亮
+  Plugin 'evanmiller/nginx-vim-syntax'                                                      " nginx语法高亮
+  Plugin 'ekalinin/Dockerfile.vim'                                                          " Dockerfile语法高亮
 " Plugin 'tpope/vim-markdown'                                                               " markdown语法插件
 " Plugin 'plasticboy/vim-markdown'                                                          " markdown语法高亮
 " Plugin 'hallison/vim-markdown'                                                            " markdown语法高亮
@@ -16,7 +16,8 @@
   Plugin 'lambdatoast/elm.vim'                                                              " vim plugin for the Elm programming language
 "
 " 快速开发插件
-  Plugin 'kien/ctrlp.vim'                                                                   " 快速查找插件
+  Plugin 'jiangmiao/auto-pairs'                                                             " 自动补齐括号
+" Plugin 'kien/ctrlp.vim'                                                                   " 快速查找插件
 " Plugin 'kana/vim-textobj-entire'                                                          " 新增两种整个文件的文本对象
 " Plugin 'terryma/vim-multiple-cursors'                                                     " 多行选中插件(类似sublimetext)
 " Plugin 'scrooloose/syntastic'                                                             " 及时语法检测插件
