@@ -2,10 +2,10 @@
   Plugin 'gmarik/Vundle.vim'                                                                " 插件管理插件Vundle
 
 " 语法高亮插件列表
-  Plugin 'zaiste/tmux.vim'                                                                  " tmux语法高亮
+" Plugin 'zaiste/tmux.vim'                                                                  " tmux语法高亮
 " Plugin 'etaoins/vim-volt-syntax'                                                          " volt语法高亮
-  Plugin 'evanmiller/nginx-vim-syntax'                                                      " nginx语法高亮
-  Plugin 'ekalinin/Dockerfile.vim'                                                          " Dockerfile语法高亮
+" Plugin 'evanmiller/nginx-vim-syntax'                                                      " nginx语法高亮
+" Plugin 'ekalinin/Dockerfile.vim'                                                          " Dockerfile语法高亮
 " Plugin 'tpope/vim-markdown'                                                               " markdown语法插件
 " Plugin 'plasticboy/vim-markdown'                                                          " markdown语法高亮
 " Plugin 'hallison/vim-markdown'                                                            " markdown语法高亮
@@ -13,11 +13,11 @@
 " Plugin 'leshill/vim-json'                                                                 " json语法高亮
 " Plugin 'skammer/vim-css-color'                                                            " css语法高亮
 " Plugin 'lervag/vimtex'                                                                    " provides support for writing LaTeX documents
-  Plugin 'lambdatoast/elm.vim'                                                              " vim plugin for the Elm programming language
+" Plugin 'lambdatoast/elm.vim'                                                              " vim plugin for the Elm programming language
 "
 " 快速开发插件
   Plugin 'jiangmiao/auto-pairs'                                                             " 自动补齐括号
-" Plugin 'kien/ctrlp.vim'                                                                   " 快速查找插件
+  Plugin 'kien/ctrlp.vim'                                                                   " 快速查找插件
 " Plugin 'kana/vim-textobj-entire'                                                          " 新增两种整个文件的文本对象
 " Plugin 'terryma/vim-multiple-cursors'                                                     " 多行选中插件(类似sublimetext)
 " Plugin 'scrooloose/syntastic'                                                             " 及时语法检测插件
@@ -46,7 +46,7 @@
 " Plugin 'vim-scripts/OmniCppComplete'                                                      " 实现写C/C++语言时自动补全 
 "
 " markdown
-  Plugin 'plasticboy/vim-markdown'
+" Plugin 'plasticboy/vim-markdown'
 "
 " python
 " Plugin 'kevinw/pyflakes-vim'                                                              " 提供实时检查python代码语法的功能（强烈推荐！）
@@ -63,10 +63,10 @@
 " Plugin 'vim-scripts/PDV--phpDocumentor-for-Vim'                                           " php doc
 " Plugin 'vim-scripts/CodeCommenter'                                                        " php doc
 " for laravel plugins
-  Plugin 'tpope/vim-dispatch'
-  Plugin 'tpope/vim-projectionist'
-  Plugin 'noahfrederick/vim-composer'
-  Plugin 'noahfrederick/vim-laravel'
+" Plugin 'tpope/vim-dispatch'
+" Plugin 'tpope/vim-projectionist'
+" Plugin 'noahfrederick/vim-composer'
+" Plugin 'noahfrederick/vim-laravel'
 "
 " js
 " Plugin 'beautify-web/js-beautify'                                                         " js代码整理插件
@@ -76,9 +76,9 @@
 " Plugin 'pangloss/vim-javascript'                                                          " js语法高亮
 " Plugin 'jelera/vim-javascript-syntax'                                                     " js语法高亮
 " Plugin 'burnettk/vim-angular'                                                             " angular语法
-  Plugin 'posva/vim-vue'                                                                    " Vim syntax highlighting for Vue components.
+" Plugin 'posva/vim-vue'                                                                    " Vim syntax highlighting for Vue components.
 
-  Plugin 'digitaltoad/vim-pug'                                                              " jade syntax highlighting
+" Plugin 'digitaltoad/vim-pug'                                                              " jade syntax highlighting
 "                                                                                           " for jsx 一下4个插件，后两个可选
 " Plugin 'othree/yajs.vim'
 " Plugin 'maxmellon/vim-jsx-pretty'
@@ -98,7 +98,7 @@
 "
 " 自动补全插件
 " Plugin 'Shougo/neocomplete.vim'                                                           " 自动补全插件
-" Plugin 'Valloric/YouCompleteMe'                                                           " 补全插件YCM
+  Plugin 'Valloric/YouCompleteMe'                                                           " 补全插件YCM
 " Plugin 'vim-scripts/AutoComplPop'                                                         " 补全插件ACP
 " Plugin 'vim-scripts/CmdlineComplete'                                                      " 提供命令模式下的补全，可以补全缓冲区中出现过的单词，很好用(另一个选择是cmdline completion)
 " Plugin 'vim-scripts/cmdline-completion'                                                   " cmdline completion
@@ -112,11 +112,14 @@
 "
 " 窗口相关插件
 " Plugin 'vim-scripts/winmanager'                                                           " 窗口管理插件
-  Plugin 'scrooloose/nerdtree'                                                              " 树形文件浏览插件
+" Plugin 'scrooloose/nerdtree'                                                              " 树形文件浏览插件
 " Plugin 'mbbill/undotree'                                                                  " 图形显示撤销历史纪录
 " Plugin 'sjl/gundo.vim'                                                                    " 图形显示撤销历史纪录
 " Plugin 'vim-scripts/taglist.vim'                                                          " 显示源代码文件函数列表插件
 " Plugin 'majutsushi/tagbar'                                                                " 标签显示插件
+
+" 缓存管理插件
+  Plugin 'jlanzarotta/bufexplorer'                                                          " Buffers管理插件
 "
 " 版本控制插件
 " Plugin 'tpope/vim-fugitive'                                                               " git插件

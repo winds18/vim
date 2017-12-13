@@ -4,7 +4,7 @@
 " source $HOME/vim/plugin/tagbar.vim
 " source $HOME/vim/plugin/vimshell.vim
 " source $HOME/vim/plugin/slimv.vim
-" source $HOME/vim/plugin/ycm.vim
+  source $HOME/vim/plugin/ycm.vim
 " source $HOME/vim/plugin/jsbeautify.vim
 " source $HOME/vim/plugin/wordpress.vim
 " source $HOME/vim/plugin/neocomplete.vim
@@ -23,3 +23,4 @@
 " source $HOME/vim/plugin/ionic.vim
   source $HOME/vim/plugin/markdown.vim
   source $HOME/vim/plugin/UltiSnips.vim
+  source $HOME/vim/plugin/bufExplorer.vim
