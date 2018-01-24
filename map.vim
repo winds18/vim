@@ -36,3 +36,7 @@
 " map about fold {{{
 " nnoremap <Space> za
 " }}}
+
+" map about cmd {{{
+cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+" }}}

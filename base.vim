@@ -155,3 +155,5 @@ autocmd BufReadPost *
 " }}}
 
   runtime macros/matchit.vim                        " 开启vim自带的增强％命令的插件
+
+  autocmd filetype crontab set nobackup nowritebackup

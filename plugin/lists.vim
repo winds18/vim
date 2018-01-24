@@ -14,6 +14,8 @@
 " Plugin 'skammer/vim-css-color'                                                            " css语法高亮
 " Plugin 'lervag/vimtex'                                                                    " provides support for writing LaTeX documents
 " Plugin 'lambdatoast/elm.vim'                                                              " vim plugin for the Elm programming language
+" vim for rails.vim 智能path，rcontrol,rmodel,rview
+  Plugin 'tpope/vim-rails'
 "
 " 快速开发插件
   Plugin 'jiangmiao/auto-pairs'                                                             " 自动补齐括号
