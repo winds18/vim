@@ -96,11 +96,12 @@
 " Plugin 'groenewege/vim-less'                                                              " less语法高亮
 "
 " lisp
-" Plugin 'kovisoft/slimv'                                                                   " Superior Lisp Interaction Mode for Vim
+  Plugin 'kovisoft/slimv'                                                                   " Superior Lisp Interaction Mode for Vim
 "
 " 自动补全插件
+  Plugin 'zxqfl/tabnine-vim'                                                                " AI自动补全插件
 " Plugin 'Shougo/neocomplete.vim'                                                           " 自动补全插件
-  Plugin 'Valloric/YouCompleteMe'                                                           " 补全插件YCM
+" Plugin 'Valloric/YouCompleteMe'                                                           " 补全插件YCM
 " Plugin 'vim-scripts/AutoComplPop'                                                         " 补全插件ACP
 " Plugin 'vim-scripts/CmdlineComplete'                                                      " 提供命令模式下的补全，可以补全缓冲区中出现过的单词，很好用(另一个选择是cmdline completion)
 " Plugin 'vim-scripts/cmdline-completion'                                                   " cmdline completion
